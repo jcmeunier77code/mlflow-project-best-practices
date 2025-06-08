@@ -1,16 +1,20 @@
 channels:
   - conda-forge
 dependencies:
-  - python=3.7.17
+  - python=3.8.20
   - pip
   - pip:
-    - mlflow==1.30.0
-    - cloudpickle==1.6.0
-    - databricks-automl-runtime==0.2.5.1
-    - holidays==0.14.0
-    - koalas==1.8.2
-    - psutil==5.8.0
-    - scikit-learn==0.24.1
-    - typing-extensions==3.7.4.3
-    - xgboost==1.5.1
+    - mlflow==2.21.2
+    - boto3==1.28.30
+    - cffi==1.16.0
+    - configparser==5.4.0
+    - dill==0.3.7
+    - fsspec==2025.5.1
+    - keras==2.12.0
+    - pandas==2.3.0
+    - pillow==10.2.0
+    - scipy==1.11.1
+    - tensorflow==2.13.0
+    - tensorflow-cpu==2.13.0
+    - typing-extensions==4.7.1
 name: mlflow-env
