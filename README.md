@@ -27,6 +27,19 @@ curl \
   https://adb-2951765055089996.16.azuredatabricks.net/model/Fake-News/1/invocations
 ```
 
+## Build docker image and test it locally 
+
+Build image
+
+```bash
+docker build -t mlflow-bp-mlops .
+```
+
+Run it locally with image ID (using ```docker image ls```)
+
+```bash
+docker run -p 127.0.0.1:8080:8080 f17355d169c5
+```
 
 ## Deploy Architecture
 
