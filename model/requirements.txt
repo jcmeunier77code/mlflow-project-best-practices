@@ -1,9 +1,10 @@
-mlflow
+mlflow==1.30.0
 cloudpickle==1.6.0
 databricks-automl-runtime==0.2.5.1
-holidays==0.12
+holidays==0.74
 koalas==1.8.2
 psutil==5.8.0
 scikit-learn==0.24.1
 typing-extensions==3.7.4.3
 xgboost==1.5.1
+databricks-cli==0.17.8

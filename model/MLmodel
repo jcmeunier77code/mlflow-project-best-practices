@@ -4,11 +4,11 @@ flavors:
     env: conda.yaml
     loader_module: mlflow.sklearn
     model_path: model.pkl
-    python_version: 3.8.10
+    python_version: 3.11.12
   sklearn:
     pickled_model: model.pkl
     serialization_format: cloudpickle
-    sklearn_version: 0.24.1
+    sklearn_version: 1.7.0
 model_uuid: 857f2cf5ff7e42d4a3b1ad9831e624fe
 run_id: 68baff0203344dfebe89a6c73c6d6cfe
 saved_input_example_info:
@@ -18,4 +18,4 @@ saved_input_example_info:
 signature:
   inputs: '[{"name": "text", "type": "string"}]'
   outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
-utc_time_created: '2022-03-21 10:41:37.370867'
+utc_time_created: '2025-06-08'
